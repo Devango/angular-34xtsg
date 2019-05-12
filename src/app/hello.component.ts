@@ -49,7 +49,7 @@ export class HelloComponent {
     let reduceex = var2.pipe(reduce((a, b) => a + b, 0));
 
     let reducey = reduceex.subscribe(x => { console.log('result : ' + x); });
-  }
+  }  
   
 }
 
